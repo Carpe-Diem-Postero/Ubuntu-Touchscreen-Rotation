@@ -1,6 +1,6 @@
 # Ubuntu Touchscreen Rotation
 
-This scripts will rotate the screen and adjust the touchscreen matrix accordingly
+This scripts will rotate the screen and adjust the touchscreen matrix accordingly.
 Documentation used for touchscreen matrix adjustment: https://wiki.ubuntu.com/X/InputCoordinateTransformation
 
 Set the "screen" variable in both scripts with your specific touchscreen name. You can find it with "xinput list" in terminal.
@@ -14,4 +14,4 @@ Firefox does not use touchscrolling with touchscreen by default. To enable it:
 2. edit /etc/security/pam_env.conf and add MOZ_USE_XINPUT2 DEFAULT=1
 3. restart firefox
 
-That should do the trick. touchscrolling in chromium works by default.
+That should do the trick. Touchscrolling in chromium works by default.
